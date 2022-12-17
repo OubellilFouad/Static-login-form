@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&display=swap');
+*,*::before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sora', sans-serif;
+}
+#container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.side{
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 25%;
+}
+.logo{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 140px;
+}
+.logo img{
+    width: 60px;
+}
+.logo span{
+    font-size: 2rem;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9FAFB;
+    padding: 70px 0;
+    gap: 30px;
+    width: 75%;
+}
+.main h2{
+    margin-left: 40px;
+    font-size: 1.1rem;
+    max-width: 59%;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.formContent{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    padding: 30px 40px;
+    gap: 20px;
+    box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.2);
+}
+.formRow{
+    display: flex;
+    gap: 30px;
+    width: 60%;
+}
+.rowEle{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex: 1;
+}
+.rowEle label{
+    font-size: 0.8rem;
+}
+.rowEle input{
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid lightgray;
+}
+.rowEle input:focus{
+    border: #2756D9 1px solid;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2);
+}
+.redirect{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    gap: 7px;
+}
+.redirect button{
+    padding: 10px 30px;
+    width: fit-content;
+    border-radius: 8px;
+    color: white;
+    background-color: #596D48;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.redirect p{
+    font-size: 0.8rem;
+}
